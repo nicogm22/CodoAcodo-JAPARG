@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contactanos por distintos medios de comunicacion, los tenemos todos!">
+  <title> Contactanos! | JapanShop</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <link rel="icon" href="../img/MADEINJAPANIMAGEN.png">
+</head>
+
+<body>
+
+    <header class="navbar navbar-expand-lg colorheaderdiv1">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html">JapanShop</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="productos.html">Productos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="nosotros.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link navbaractive" href="contacto.html">Contacto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="nuestratiendafisica.html">Nuestra Tienda Fisica</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Buscar..." aria-label="Search">
+                    <button class="btn btn-outline-success botonbusqueda" type="submit">Busqueda</button>
+                </form>
+            </nav>
+        </div>
+    </header>
+
+  <main class="container">
+          <div class="contacto-title">
+            <h2>Comuníquese con nosotros</h2>
+          </div>
+          <div class="contacto-main">
+            <div class="contacto-form-wrapper">
+              <form action="#" class="contacto-form" id="contactoForm">
+                <div class="contacto-form-div contacto-form-motivo">
+                  <label for="motivo">Motivo de contacto:</label>
+                  <select id="motivo" name="motivo">
+                    <option value="" disabled selected hidden>Seleccione un motivo</option>
+                    <option value="Consulta">Consulta</option>
+                    <option value="Sugerencia">Sugerencia</option>
+                    <option value="Reportar un problema">Reportar un problema</option>
+                    <option value="Devolver un articulo">Devolver un articulo</option>
+                  </select>
+                </div>
+                <div class="contacto-form-div">
+                  <label for="nombre"></label>
+                  <input type="text" id="nombre" name="nombre" placeholder="Nombre" maxlength="40">
+                  <span class="contacto-form-span">ingrese su nombre</span>
+                </div>
+                <div class="contacto-form-div">
+                  <label for="email"></label>
+                  <input type="email" id="email" name="email" placeholder="email@email.com" maxlength="40">
+                  <span class="contacto-form-span">ingrese su email</span>
+                </div>
+                <div class="contacto-form-div">
+                  <label for="telefono"></label>
+                  <input type="tel" id="telefono" name="telefono" placeholder="011 55777888" maxlength="15">
+                  <span class="contacto-form-span">ingrese su número de teléfono</span>
+                </div>
+                <div>
+                  <label for="mensaje"></label>
+                  <textarea name="mensaje" id="mensaje" cols="35" rows="7" placeholder="ingrese el texto aqui"></textarea>
+                </div>
+      
+                <div class="contacto-form-div">
+                  <label for="contacto-imagen">Adjuntar imagen(solo JPG y PNG): </label>
+                  <input type="file" id="contacto-imagen" name="imagen" accept="image/jpeg, image/png">
+                  <svg id="contacto-imagen-validation" style="display:none;" xmlns="http://www.w3.org/2000/svg" width="30"
+                    height="30" viewBox="0 0 24 24" fill="none" stroke="#7bff75" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                </div>
+                <div>
+                  <input type="checkbox" id="terminos" name="terminos">
+                  <label for="terminos">He leído y acepto los <a href="#" target="_blank">términos y condiciones</a></label>
+                </div>
+                <div>
+                  <input type="checkbox" id="suscripcion" name="suscripcion">
+                  <label for="suscripcion">Deseo suscribirme para recibir ofertas y promociones por correo
+                    electrónico.</label>
+                </div>
+                <div>
+                  <input type="submit" id="Enviar" name="submit" value="Enviar mensaje" class="contacto-form-button">
+                </div>
+              </form>
+           </div>
+          </div>
+
+      <div class="contacto" id="#contactenos">
+          <h2>Contacto</h2>
+          <p>Nos puedes contactar por estos medios de 8am hasta las 19pm.</p>
+
+          <div>
+              <img src="../img/wsp.png" alt="telefono">
+              <p>011-89789987</p>
+          </div>
+
+          <div>
+              <img src="../img/email.png" alt="telefono">
+              <p>randomemail@gmail.com.</p>
+          </div>
+
+          <div> <img src="../img/tel.png" alt="whatsapp">
+              <p>011-6545421234</p>
+          </div>
+      </div>
+  </main>
+
+    <footer>
+
+      <div>
+          <img src="../img/MADEINJAPANIMAGEN.png" alt="logo de la pagina">
+      </div>
+
+      <div class="politicas">
+          <a href="">Derechos de autor</a>
+          <a href="">Politicas</a>
+      </div>
+
+
+      <div class="redessociales">
+          <a href="" target="_blank"><img src="../img/ig.png" alt="Instagram"></a>
+          <a href="" target="_blank"><img src="../img/fb.png" alt="Facebook"></a>
+          <a href="" target="_blank"><img src="../img/twt.png" alt="Twitter"></a>
+      </div>
+
+  </footer>
+
+
+  <script>
+    const contactoImg = document.getElementById("contacto-imagen");
+
+    contactoImg.addEventListener("change", function () {
+      let check = document.getElementById("contacto-imagen-validation");
+      if (this.files && this.files[0]) {
+        console.log("asd");
+        check.style.display = "block";
+      } else {
+        check.style.display = "none";
+      }
+    });
+
+    document.addEventListener('DOMContentLoaded', function () {
+      const form = document.getElementById('contactoForm');
+      const motivo = document.getElementById('motivo');
+      const nombre = document.getElementById('nombre');
+      const email = document.getElementById('email');
+      const telefono = document.getElementById('telefono');
+      const mensaje = document.getElementById('mensaje');
+      const terminos = document.getElementById('terminos');
+
+      form.addEventListener('submit', function (event) {
+        let isValid = true;
+        let errorMessages = {
+          motivo: '',
+          nombre: '',
+          email: '',
+          telefono: '',
+          mensaje: '',
+          terminos: ''
+        };
+
+        clearErrorMessages();
+
+        if (motivo.value === "") {
+          isValid = false;
+          errorMessages.motivo = 'Seleccione un motivo de contacto.';
+        }
+
+        if (nombre.value.trim() === "") {
+          isValid = false;
+          errorMessages.nombre = 'Ingrese un nombre.';
+        }
+
+        if (!validateEmail(email.value)) {
+          isValid = false;
+          errorMessages.email = 'Ingrese un email válido.';
+        }
+
+        if (!validatePhone(telefono.value)) {
+          isValid = false;
+          errorMessages.telefono = 'Ingrese un número de teléfono válido mayor a 8 dígitos.';
+        }
+
+        if (mensaje.value.trim() === "") {
+          isValid = false;
+          errorMessages.mensaje = 'Ingrese su mensaje.';
+        }
+
+        if (!terminos.checked) {
+          isValid = false;
+          errorMessages.terminos = 'Debe aceptar los términos y condiciones.';
+        }
+
+        if (!isValid) {
+          event.preventDefault();
+          displayErrorMessages(errorMessages);
+        }
+      });
+
+      function validateEmail(email) {
+        const emailValidation = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        return emailValidation.test(String(email).toLowerCase());
+      }
+
+      function validatePhone(phone) {
+        const phoneValidation = /^\d{8,}$/;
+        return phoneValidation.test(String(phone));
+      }
+      function clearErrorMessages() {
+        const errorSpans = document.querySelectorAll('.mensajeError');
+        errorSpans.forEach(span => span.remove());
+      }
+      function displayErrorMessages(errorMessages) {
+        for (const [key, message] of Object.entries(errorMessages)) {
+          if (message) {
+            const field = document.getElementById(key);
+            const errorSpan = document.createElement('span');
+            errorSpan.className = 'mensajeError';
+            errorSpan.innerText = 'x' + ' ' + message;
+            field.parentElement.appendChild(errorSpan);
+          }
+        }
+      }
+    });
+
+  </script>
+</body>
+
+</html>
